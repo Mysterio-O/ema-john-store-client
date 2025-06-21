@@ -1,6 +1,7 @@
 .shop-container {
     display: grid;
     grid-template-columns: 4fr 1fr;
+    margin-bottom: 20px;
     /* position: relative; */
 }
 
@@ -24,4 +25,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.pagination {
+    text-align: center;
+}
+.pagination button {
+    margin-right: 10px;
+}
+.selected{
+    background-color: orange;
 }
